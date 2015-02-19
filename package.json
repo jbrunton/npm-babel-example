@@ -5,12 +5,14 @@
   "main": "main.js",
   "scripts": {
     "test": "jasmine",
-    "build": "babel scripts/main.js --out-file build/main.js"
+    "build": "browserify scripts/main.js -t babelify --outfile build/release.js"
   },
   "author": "John Brunton",
   "license": "ISC",
   "devDependencies": {
     "babel": "^4.3.0",
+    "babelify": "^5.0.3",
+    "browserify": "^8.1.3",
     "jasmine": "^2.2.1"
   }
 }
