@@ -4,8 +4,11 @@
   "description": "Trying out npm as a build tool instead of Grunt/Gulp/whatever",
   "main": "main.js",
   "scripts": {
-    "test": "test"
+    "test": "jasmine"
   },
   "author": "John Brunton",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.2.1"
+  }
 }
