@@ -1,0 +1,11 @@
+{
+  "name": "npm-babel-example",
+  "version": "0.0.0",
+  "description": "Trying out npm as a build tool instead of Grunt/Gulp/whatever",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "John Brunton",
+  "license": "ISC"
+}
